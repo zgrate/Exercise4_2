@@ -18,8 +18,6 @@ namespace AsyncCallbackService
     [ServiceContract(SessionMode = SessionMode.Required, CallbackContract = typeof(IComplexCallback))]
     public interface AsyncComplexCalculator
     {
-        [OperationContract]
-        string GetData(int value);
 
         [OperationContract]
         AsyncComplexNumber AddComplex(AsyncComplexNumber number1, AsyncComplexNumber number2);
