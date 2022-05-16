@@ -16,6 +16,12 @@ namespace Exercise4_2
             Console.WriteLine("...called addCNum(...)");
             return new ComplexNum(n1.real + n2.real, n1.imag + n2.imag);
         }
+        public ComplexNum multiplyCNum(ComplexNum n1, ComplexNum n2)
+        {
+            Console.WriteLine("...called multiplyCNum(...)");
+            return new ComplexNum(n1.real * n2.real - n1.imag * n2.imag, n1.real * n2.imag + n1.imag * n2.real);
+        }
+
     }
 
     [ServiceBehavior(ConcurrencyMode = ConcurrencyMode.Multiple)]

@@ -62,6 +62,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
+    <Compile Include="Connected Services\ServiceReference5\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
     <Compile Include="Info.cs" />
     <Compile Include="Okienko1.cs">
       <SubType>Form</SubType>
@@ -102,6 +107,16 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Connected Services\ServiceReference4\MySuperCalc.wsdl" />
+    <None Include="Connected Services\ServiceReference5\AsyncComplexCalc.wsdl" />
+    <None Include="Connected Services\ServiceReference5\AsyncComplexCalc.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReference5\AsyncComplexCalc1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Connected Services\ServiceReference5\AsyncComplexCalc2.xsd">
+      <SubType>Designer</SubType>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
@@ -115,6 +130,7 @@
     <WCFMetadataStorage Include="Connected Services\ServiceReference1\" />
     <WCFMetadataStorage Include="Connected Services\ServiceReference2\" />
     <WCFMetadataStorage Include="Connected Services\ServiceReference4\" />
+    <WCFMetadataStorage Include="Connected Services\ServiceReference5\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Connected Services\ServiceReference1\ComplexCalc.disco" />
@@ -160,6 +176,27 @@
       <Generator>WCF Proxy Generator</Generator>
       <LastGenOutput>Reference.cs</LastGenOutput>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference5\AsyncComplexCalc.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference5\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference5\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Connected Services\ServiceReference5\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AsyncComplexCalc\AsyncComplexCalc.csproj">
+      <Project>{140ABC0B-3BAE-4715-A16A-D40EE783D190}</Project>
+      <Name>AsyncComplexCalc</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

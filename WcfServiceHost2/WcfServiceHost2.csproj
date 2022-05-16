@@ -55,6 +55,10 @@
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\AsyncComplexCalc\AsyncComplexCalc.csproj">
+      <Project>{140abc0b-3bae-4715-a16a-d40ee783d190}</Project>
+      <Name>AsyncComplexCalc</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CallbackService\CallbackService.csproj">
       <Project>{2d93266f-e26e-4d1c-94a9-49a070c53b27}</Project>
       <Name>CallbackService</Name>

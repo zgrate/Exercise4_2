@@ -5,3 +5,10 @@ D:\Krzysiu\Studia\OneDrive - Politechnika Wroclawska\Rozproszone Systemy Informa
 D:\Krzysiu\Studia\OneDrive - Politechnika Wroclawska\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\CallbackService\obj\Debug\CallbackService.csproj.CoreCompileInputs.cache
 D:\Krzysiu\Studia\OneDrive - Politechnika Wroclawska\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\CallbackService\obj\Debug\CallbackService.dll
 D:\Krzysiu\Studia\OneDrive - Politechnika Wroclawska\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\CallbackService\obj\Debug\CallbackService.pdb
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\CallbackService\bin\Debug\CallbackService.dll.config
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\CallbackService\bin\Debug\CallbackService.dll
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\CallbackService\bin\Debug\CallbackService.pdb
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\CallbackService\obj\Debug\CallbackService.csproj.AssemblyReference.cache
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\CallbackService\obj\Debug\CallbackService.csproj.CoreCompileInputs.cache
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\CallbackService\obj\Debug\CallbackService.dll
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\CallbackService\obj\Debug\CallbackService.pdb

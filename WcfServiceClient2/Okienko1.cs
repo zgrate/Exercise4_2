@@ -1,19 +1,40 @@
-﻿using System;
+﻿using AsyncCallbackService;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.ServiceModel;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WcfServiceClient2.ServiceReference1;
 using WcfServiceClient2.ServiceReference2;
+using WcfServiceClient2.ServiceReference5;
 
 namespace WcfServiceClient2
 {
+
+
+
+
     public partial class Okienko1 : Form
     {
+
+        class ComplexCalculatorCallback : IComplexCallback
+        {
+            public Okienko1 okienko;
+            public ComplexCalculatorCallback(Okienko1 okienko)
+            {
+                this.okienko = okienko;
+            }
+
+            public void CalculationResult(string operation, AsyncComplexNumber result)
+            {
+                okienko.setResult(result.RealValue, result.ImaginaryValue);
+            }
+        }
         public Okienko1()
         {
             InitializeComponent();
@@ -40,10 +61,10 @@ namespace WcfServiceClient2
 
         }
 
-        public void setResult(ComplexNum num)
+        public void setResult(double real, double imaginary)
         {
-            realResult.Text = num.real.ToString();
-            imaginaryResult.Text = num.imag.ToString();
+            realResult.Text = real.ToString();
+            imaginaryResult.Text = imaginary.ToString();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -71,7 +92,7 @@ namespace WcfServiceClient2
                     if (isAddition)
                     {
                         ComplexNum result1 = client1.addCNum(cnum1, cnum2);
-                        setResult(result1);
+                        setResult(result1.real, result1.imag);
                     }
                     else
                     {
@@ -84,8 +105,11 @@ namespace WcfServiceClient2
                 }
                 else
                 {
-                    AsyncServiceClient client2 = new AsyncServiceClient("BasicHttpBinding_IAsyncService");
-                    
+                    ComplexCalculatorCallback myCbBHandler = new ComplexCalculatorCallback(this);
+                    InstanceContext instanceContext = new InstanceContext(myCbBHandler);
+                    AsyncComplexCalculatorClient client3 = new AsyncComplexCalculatorClient(instanceContext);
+                    client3.AddComplex()''
+
                 }
 
 
@@ -98,6 +122,11 @@ namespace WcfServiceClient2
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void Okienko1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

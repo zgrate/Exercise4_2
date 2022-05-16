@@ -8,19 +8,29 @@ using System.Text;
 namespace AsyncCallbackService
 {
     
-    public class AsyncComplexCalc : AsyncComplexCalculator
+    public class AsyncComplexCalc : IAsyncComplexCalculator
     {
-        public AsyncComplexNumber AddComplex(AsyncComplexNumber number1, AsyncComplexNumber number2)
+        IComplexCallback callback = null;
+
+        public AsyncComplexCalc()
+        {
+            callback = OperationContext.Current.GetCallbackChannel<IComplexCallback>();
+        }
+
+        public void AddComplex(AsyncComplexNumber number1, AsyncComplexNumber number2)
         {
             var a = new AsyncComplexNumber();
             a.RealValue = number1.RealValue + number2.RealValue;
             a.ImaginaryValue = number1.ImaginaryValue + number2.ImaginaryValue; ;
-            return a;
+            callback.CalculationResult("add", a);
         }
 
-        public AsyncComplexNumber MultipleComplex(AsyncComplexNumber number1, AsyncComplexNumber number2)
+        public void MultipleComplex(AsyncComplexNumber number1, AsyncComplexNumber number2)
         {
-            throw new NotImplementedException();
+            var result = new AsyncComplexNumber();
+            result.RealValue = number1.RealValue * number2.RealValue - number1.ImaginaryValue * number2.ImaginaryValue;
+            result.ImaginaryValue = number1.RealValue * number2.ImaginaryValue + number1.ImaginaryValue * number2.RealValue;
+            callback.CalculationResult("multi", result);
         }
     }
 }

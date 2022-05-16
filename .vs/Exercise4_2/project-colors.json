@@ -15,7 +15,17 @@
       "ProjectGuid": "5f227ad2-c3ce-4215-b10e-69848afdf542",
       "DisplayName": "WcfService2",
       "ColorIndex": 2
+    },
+    "2d93266f-e26e-4d1c-94a9-49a070c53b27": {
+      "ProjectGuid": "2d93266f-e26e-4d1c-94a9-49a070c53b27",
+      "DisplayName": "CallbackService",
+      "ColorIndex": 3
+    },
+    "140abc0b-3bae-4715-a16a-d40ee783d190": {
+      "ProjectGuid": "140abc0b-3bae-4715-a16a-d40ee783d190",
+      "DisplayName": "AsyncComplexCalc",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 5
 }

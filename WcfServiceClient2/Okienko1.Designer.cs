@@ -246,6 +246,7 @@
             this.Controls.Add(this.dodawanieRadio);
             this.Name = "Okienko1";
             this.Text = "Okienko1";
+            this.Load += new System.EventHandler(this.Okienko1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

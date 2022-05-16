@@ -15,6 +15,9 @@ namespace Exercise4_2
         [OperationContract]
         ComplexNum addCNum(ComplexNum n1, ComplexNum n2);
 
+        [OperationContract]
+        ComplexNum multiplyCNum(ComplexNum n1, ComplexNum n2);
+
         // TODO: Add your service operations here
     }
 

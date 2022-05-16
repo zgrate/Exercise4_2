@@ -16,14 +16,14 @@ namespace AsyncCallbackService
 
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the interface name "IService1" in both code and config file together.
     [ServiceContract(SessionMode = SessionMode.Required, CallbackContract = typeof(IComplexCallback))]
-    public interface AsyncComplexCalculator
+    public interface IAsyncComplexCalculator
     {
 
-        [OperationContract]
-        AsyncComplexNumber AddComplex(AsyncComplexNumber number1, AsyncComplexNumber number2);
+        [OperationContract(IsOneWay =true)]
+        void AddComplex(AsyncComplexNumber number1, AsyncComplexNumber number2);
         
-        [OperationContract]
-        AsyncComplexNumber MultipleComplex(AsyncComplexNumber number1, AsyncComplexNumber number2);
+        [OperationContract(IsOneWay = true)]
+        void MultipleComplex(AsyncComplexNumber number1, AsyncComplexNumber number2);
 
         // TODO: Add your service operations here
     }

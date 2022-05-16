@@ -1,0 +1,7 @@
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\AsyncComplexCalc\bin\Debug\AsyncComplexCalc.dll.config
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\AsyncComplexCalc\bin\Debug\AsyncComplexCalc.dll
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\AsyncComplexCalc\bin\Debug\AsyncComplexCalc.pdb
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\AsyncComplexCalc\obj\Debug\AsyncComplexCalc.csproj.AssemblyReference.cache
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\AsyncComplexCalc\obj\Debug\AsyncComplexCalc.csproj.CoreCompileInputs.cache
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\AsyncComplexCalc\obj\Debug\AsyncComplexCalc.dll
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\AsyncComplexCalc\obj\Debug\AsyncComplexCalc.pdb
