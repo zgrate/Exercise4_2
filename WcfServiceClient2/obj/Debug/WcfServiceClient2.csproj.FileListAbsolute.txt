@@ -1,0 +1,18 @@
+D:\Krzysiu\Studia\Semestr 6\Rozproszone Systemy Informatyczne\lab10\Exercise4_2\WcfServiceClient2\obj\Debug\WcfServiceClient2.csproj.AssemblyReference.cache
+D:\Krzysiu\Studia\Semestr 6\Rozproszone Systemy Informatyczne\lab10\Exercise4_2\WcfServiceClient2\obj\Debug\WcfServiceClient2.csproj.SuggestedBindingRedirects.cache
+D:\Krzysiu\Studia\Semestr 6\Rozproszone Systemy Informatyczne\lab10\Exercise4_2\WcfServiceClient2\obj\Debug\WcfServiceClient2.csproj.CoreCompileInputs.cache
+D:\Krzysiu\Studia\Semestr 6\Rozproszone Systemy Informatyczne\lab10\Exercise4_2\WcfServiceClient2\bin\Debug\WcfServiceClient2.exe.config
+D:\Krzysiu\Studia\Semestr 6\Rozproszone Systemy Informatyczne\lab10\Exercise4_2\WcfServiceClient2\bin\Debug\WcfServiceClient2.exe
+D:\Krzysiu\Studia\Semestr 6\Rozproszone Systemy Informatyczne\lab10\Exercise4_2\WcfServiceClient2\bin\Debug\WcfServiceClient2.pdb
+D:\Krzysiu\Studia\Semestr 6\Rozproszone Systemy Informatyczne\lab10\Exercise4_2\WcfServiceClient2\obj\Debug\WcfServiceClient2.exe
+D:\Krzysiu\Studia\Semestr 6\Rozproszone Systemy Informatyczne\lab10\Exercise4_2\WcfServiceClient2\obj\Debug\WcfServiceClient2.pdb
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\WcfServiceClient2\bin\Debug\WcfServiceClient2.exe.config
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\WcfServiceClient2\bin\Debug\WcfServiceClient2.exe
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\WcfServiceClient2\bin\Debug\WcfServiceClient2.pdb
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\WcfServiceClient2\obj\Debug\WcfServiceClient2.csproj.AssemblyReference.cache
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\WcfServiceClient2\obj\Debug\WcfServiceClient2.csproj.SuggestedBindingRedirects.cache
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\WcfServiceClient2\obj\Debug\WcfServiceClient2.Okienko1.resources
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\WcfServiceClient2\obj\Debug\WcfServiceClient2.csproj.GenerateResource.cache
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\WcfServiceClient2\obj\Debug\WcfServiceClient2.csproj.CoreCompileInputs.cache
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\WcfServiceClient2\obj\Debug\WcfServiceClient2.exe
+C:\Users\dzing\OneDrive - Politechnika Wroclawska\Semestr 6\Rozproszone Systemy Informatyczne\LAB\Lista4\Ćwiczenie2\Exercise4_2\WcfServiceClient2\obj\Debug\WcfServiceClient2.pdb

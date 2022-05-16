@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "23f4a63d-6c41-4ffe-a2fe-64bd9c80aeae": {
+      "ProjectGuid": "23f4a63d-6c41-4ffe-a2fe-64bd9c80aeae",
+      "DisplayName": "WcfServiceClient2",
+      "ColorIndex": 0
+    },
+    "e2f35962-5929-42d8-bc44-9c66150ee244": {
+      "ProjectGuid": "e2f35962-5929-42d8-bc44-9c66150ee244",
+      "DisplayName": "WcfServiceHost2",
+      "ColorIndex": 1
+    },
+    "5f227ad2-c3ce-4215-b10e-69848afdf542": {
+      "ProjectGuid": "5f227ad2-c3ce-4215-b10e-69848afdf542",
+      "DisplayName": "WcfService2",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}
